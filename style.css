@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #BB2649;
+    height: 50px;
+    padding: 10px 200px;
+}
+
+h1 {
+    display: inline;
+    color: white;
+}
+
+ul li {
+    list-style: none;
+}
+
+nav {
+    margin-top: 10px;
+    float: right;
+    display: inline;
+}
+
+input {
+    height: 20px;
+}
+
+section {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.article {
+    border-bottom: 1px solid black;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+}
