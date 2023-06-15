@@ -3,10 +3,15 @@
     padding: 0;
 }
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
 header {
     background-color: #BB2649;
-    height: 50px;
-    padding: 10px 200px;
+    height: 6vh;
+    padding: 2vh 20vb;
 }
 
 h1 {
@@ -14,32 +19,90 @@ h1 {
     color: white;
 }
 
+ul {
+    color: white;
+    font-size: 20px;
+    margin-right: 100px;
+}
+
 ul li {
     list-style: none;
+    display: inline;
+    margin: 0 30px;
 }
 
 nav {
     margin-top: 10px;
     float: right;
-    display: inline;
+    display: flex;
 }
 
 input {
     height: 20px;
 }
 
-section {
+/*바뀌기 전*/
+
+.section {
     margin: 0 auto;
+    width: 40%;
     margin-top: 100px;
-    width: 600px;
+}
+
+.articles {
     border: 1px solid black;
     border-radius: 5px;
 }
 
-.article {
-    border-bottom: 1px solid black;
+.col {
     width: auto;
     display: flex;
     justify-content: space-between;
     padding: 5px 20px;
 }
+
+.box {
+    color: white;
+    background-color: #BB2649;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px 8px;
+}
+
+.article a{
+    border-bottom: 1px solid black;
+    color: black;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+.login {
+    position: fixed;
+    left: 75%;
+    float: right;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.login button {
+    color: white;
+    background-color: #BB2649;
+}
+
+.login button, input {
+    width: 25vb;
+    border-radius: 5px;
+}
+
+/*바뀐 후*/
+.mainArticle {
+    width: 100vb;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
