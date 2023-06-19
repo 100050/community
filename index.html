@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
     <title>Honey Bee</title>
 </head>
 <body>
@@ -23,13 +22,17 @@
         </nav>
     </header>
     <main>
-        <form action="" class="login">
-            <div>
-                <input type="text" placeholder="아이디"> <br>
-                <input type="password" placeholder="비밀번호">
-            </div>
-            <button>로그인</button>
-        </form>
+        <div class="user">
+            <form action="" class="login">
+                <div>
+                    <input type="text" id="id" placeholder="아이디"> <br>
+                    <input type="password" id="pw" placeholder="비밀번호">
+                </div>
+                <button onclick="login()">로그인</button>
+                <br>
+                <a href="">회원가입</a>
+            </form>
+        </div>
         <section>
             <div class="section">
                 <span class="col"><span class="box">제목</span><span class="box">생성날짜</span></span>
@@ -48,5 +51,6 @@
     <footer>
 
     </footer>
+    <script src="main.js"></script>
 </body>
 </html>
