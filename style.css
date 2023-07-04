@@ -69,7 +69,7 @@ input {
     padding: 4px 8px;
 }
 
-.article a{
+.article {
     border-bottom: 1px solid black;
     color: black;
     width: auto;
@@ -111,7 +111,7 @@ input {
     font-size: 5px;
 }
 
-/*바뀐 후*/
+/*article*/
 .mainArticle {
     width: 100vb;
     margin: 0 auto;
@@ -120,3 +120,10 @@ input {
     border-radius: 5px;
 }
 
+/* writing */
+.write {
+    width: 100vb;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 5px;
+}

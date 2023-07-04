@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,13 +22,13 @@
         </nav>
     </header>
     <main>
-        <div class="user">
+        <div id="user" class="user">
             <form action="" class="login">
                 <div>
                     <input type="text" id="id" placeholder="아이디"> <br>
                     <input type="password" id="pw" placeholder="비밀번호">
                 </div>
-                <button onclick="login()">로그인</button>
+                <button id="login_btn">로그인</button>
                 <br>
                 <a href="">회원가입</a>
             </form>
@@ -36,12 +36,12 @@
         <section>
             <div class="section">
                 <span class="col"><span class="box">제목</span><span class="box">생성날짜</span></span>
-                <div class="articles">
+                <div class="articles" id="articles">
                     <script>
-                        let title = ["야", "민재", "좀!"];
+                        let title = ["html", "css", "javascript"];
                         let upload_time = ["2022", "2021", "2020"];
                         for (i = 0; i < title.length; i++) {
-                            document.write("<span class='article'><a onclick='alter();'><span>"+ title[i] +"</span><span>"+ upload_time[i] +"</span></a></span>");
+                            document.write("<a class='article' id='"+ title[i] +"'><span>"+ title[i] +"</span><span>"+ upload_time[i] +"</span></a>");
                         }
                     </script>
                 </div>
@@ -51,6 +51,6 @@
     <footer>
 
     </footer>
-    <script src="main.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>
